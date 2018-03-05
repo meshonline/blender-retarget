@@ -12,3 +12,8 @@ Animation retargeting addon for [Blender 3D](http://www.blender.org/).
 
 Relative positions of bones can be adjusted at any time.
 To do this the respective `Link rotation` or `Link location` button should be temporarily switched off.
+
+Note:
+- After set the same pose, you need to save any changes to the keyframe.
+- Though the animation works in Blender, it is actually generated in realtime.
+- If you want the destination armature to use independent action, you need to bake action in pose mode.
